@@ -14,15 +14,7 @@ export default class Home extends Component {
             cards: [],
             url: ""
         }
-        this.app = firebase.initializeApp({
-            apiKey: "AIzaSyCvuPjY3riz03CBC_g4AdCwDgb4dxcHv2M",
-            authDomain: "cheap-eats-8325d.firebaseapp.com",
-            databaseURL: "https://cheap-eats-8325d.firebaseio.com",
-            projectId: "cheap-eats-8325d",
-            storageBucket: "cheap-eats-8325d.appspot.com",
-            messagingSenderId: "334587790011",
-            appId: "1:334587790011:web:6cd347431045e27d"
-        }); 
+        this.app = firebase.initializeApp({PRIVATE_CONFIG: ""}); 
     }
 
     render() { 
