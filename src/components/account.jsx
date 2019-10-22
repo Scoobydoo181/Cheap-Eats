@@ -6,7 +6,7 @@ class Account extends Component {
         this.state = {  }
     }
     render() { 
-        return ("Hello world"   );
+        return ("WIP Account page");
     }
 }
  

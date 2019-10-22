@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Login extends Component {
     state = {  }
     render() { 
-        return ( "hello world" );
+        return (<h1>WIP Login Form</h1> );
     }
 }
  

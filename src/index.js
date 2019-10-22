@@ -8,10 +8,10 @@ import Account from './components/account'
 
 const routing = (
     <BrowserRouter>
-        <Route exact path="/" component={Home}/>
-        <Route path="/account" render={(props) => <Account {...props} ></Account>}/>
-        <Route path="/login" component={Login}/>
+        <Route exact path="/" render = {(props) => <Home {...props} />}/>
+        <Route path="/account" render={(props) => <Account {...props} />}/>
+        <Route path="/login" render={ (props) => <Login {...props} /> }/>
     </BrowserRouter>
 )   
 
-ReactDOM.render( routing, document.getElementById('root') )
+ReactDOM.render(routing, document.getElementById('root') )
